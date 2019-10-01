@@ -3,7 +3,7 @@
     <div class="body_1">
         <div class="clear"></div>
         <div class="top_newtour">
-            <h3 class="ttt "> Hot tour </h3>
+            <h3 class="ttt ">  tour nóng </h3>
 
         </div>
         <div class="clear"></div>
