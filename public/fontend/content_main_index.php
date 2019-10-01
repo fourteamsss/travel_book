@@ -75,29 +75,7 @@
                 </div>
             </div>
         </div>
-        <div class="">
-            <div class="support_ ">
-                <div class="support2_">
-                    <ul>
-                        <li>
-                            <span class="glyphicon glyphicon-user"
-                                style="color: rgb(255, 187, 0);font-size:700%"></span>
-                        </li>
-                        <li>
-                            <div class="sp_">
-                                <h5>Hỗ trợ</h5>
-                            </div>
-                            <div class="sp_">
-                                Từ 8h-22h
-                            </div>
-                            <div class="sp_">
-                                Hotline & Trực tuyến
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        
         <div class="clear"></div>
         <div class="row">
             <div class="col-sm-12 ">
