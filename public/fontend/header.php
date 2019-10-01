@@ -89,7 +89,7 @@
                                 <li class="current"><a href="index.php">Trang chủ</a></li>
                                 <li ><a href="#">Danh mục</a>
                                     <ul class="danhmuc_menu">
-                                        <li><a href="tour_trongnuoc.php">Tour trong nước</a></li>
+                                        <li><a href="DomesticTour.php">Tour trong nước</a></li>
                                         <li><a href="tour_nuoc_ngoai.php">Tour ngoài nước</a></li>
                                     </ul>
                                 </li>
