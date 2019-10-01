@@ -87,14 +87,47 @@
                         <nav class="horizontal-nav full-width horizontalNav-notprocessed">
                             <ul class="sf-menu">
                                 <li class="current"><a href="index.php">Trang chủ</a></li>
-                                <li ><a href="#">Danh mục</a>
+                                <li ><a href="#">Tour Du Lịch</a>
+                                <!-- đoạn này test  -->
+                                <ul class="danhmuc_menu">
+                                    <li > <a href="/trong-nuoc"><span>Trong  nước</span></a>	
+                                    	<ul >						
+						                    <li > <a href="/ha-long"><span>Hạ Long</span></a> </li>						
+						                    <li > <a href="/ninh-binh"><span>Ninh Bình</span></a> </li>						
+						                    <li > <a href="/nghe-an"><span>Nghệ An</span></a> </li>						
+                                            <li > <a href="/da-nang"><span>Đà Nẵng</span></a> </li>                                            
+                                            <li > <a href="/tam-dao"><span>Tam Đảo</span></a> </li>                                            
+                                            <li > <a href="/quang-ninh"><span>Quảng Ninh</span></a> </li>                                            
+                                            <li > <a href="/thanh-hoa"><span>Thanh Hóa</span></a> </li>						
+					                    </ul>
+				                    </li>
+                                    <li > <a href="/ngoai-nuoc"><span>Ngoài  nước</span></a>	
+                                    	<ul >						
+                                            <li> <a href="/tay-ban-nha"><span>Tây Ban Nha</span></a> </li>						
+                                            <li> <a href="/y"><span>Ý</span></a> </li>                                            
+                                            <li> <a href="/phap"><span>Pháp</span></a> </li>                                            
+                                            <li> <a href="/anh"><span>Anh</span></a> </li>                                            
+                                            <li> <a href="/thai-lan"><span>Thái Lan</span></a> </li>                                            
+                                            <li> <a href="/han-quoc"><span>Hàn Quốc</span></a> </li>                                            
+                                            <li> <a href="/trung-quoc"><span>Trung Quốc</span></a> </li>					
+					                    </ul>
+				                    </li>
+						        </ul>
+                                
+                                 <!-- kết thúc đoạn test-->
+                                   <!-- <ul class="danhmuc_menu">
+                                        <li><a href="DomesticTour.php">Tour Trong Nước</a></li>
+                                        <li><a href="tour_nuoc_ngoai.php">Tour Ngoài Nước</a></li>
+                                    </ul> -->
+                                </li>
+                                <li><a href="tours.php">Giới Thiệu</a>
                                     <ul class="danhmuc_menu">
-                                        <li><a href="DomesticTour.php">Tour trong nước</a></li>
-                                        <li><a href="tour_nuoc_ngoai.php">Tour ngoài nước</a></li>
+                                        <li><a href="DomesticTour.php">Cẩm Nang Du Lịch</a></li>
+                                        <li><a href="tour_nuoc_ngoai.php">Kinh Nghiệm Du Lịch</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="tours.php">TOURS</a></li>
-                                <li><a href="">Bài viết</a></li>
+
+                                <li><a href="">Tin Tức</a></li>
                                 <li><a href="lienhe.php">Liên hệ</a></li>
                             </ul>
                         </nav>

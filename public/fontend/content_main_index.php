@@ -3,7 +3,9 @@
     <div class="body_1">
         <div class="clear"></div>
         <div class="top_newtour">
-            <h3 class="ttt ">  tour nóng </h3>
+            <h3 class="ttt ">  Tour nóng </h3>
+            <div class="clear"></div>
+            <h5 class="ttt " > Sale off tất cả các tour trong tháng này.Nhanh tay đặt tour để cho gia đình mình cùng quây quần bên nhau.</h5>
 
         </div>
         <div class="clear"></div>
@@ -328,7 +330,7 @@
         <div class="row bog_">
             <h3
                 style="color: red;padding-top:50px;font-family: Georgia, 'Times New Roman', Times, serif;font-weight: bold;text-align: center">
-                Blog
+                Góc Kinh Nghiệm
             </h3>
             <div class="tours_main_blog row">
                 <div class="tours_ col-sm-4">
