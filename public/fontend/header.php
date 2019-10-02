@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Trang chủ</title>
     <meta charset="utf-8">
@@ -32,7 +31,7 @@
     <script src="booking/js/booking.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-    <script src="public/booktour.js"></script>
+    <link href="public/slider_booking/slider.css" rel="stylesheet">
     <script>
         $(document).ready(function () {
             jQuery('#camera_wrap').camera({
