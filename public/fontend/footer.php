@@ -1,6 +1,7 @@
 <div class="clear"></div>
-<div class="container-fluid" style="background: rgb(255, 255, 255) ;margin-top:30px;padding-bottom:30px;">
-    <div class="row">
+<div class="container-fluid bg_panner_footer" style=" background-image:url(images/panner/panner.jpg)">
+
+    <div class="row ">
         <div class="col-sm-6">
             <div class="footer_" style="color: #000;">
                 <div style="margin-bottom: 50px">
@@ -11,7 +12,7 @@
                                     <span class="glyphicon glyphicon-user"
                                         style="color: rgb(255, 187, 0);font-size:700%"></span>
                                 </li>
-                                <li>
+                                <li style="color:#fff">
                                     <div class="sp_">
                                         <h5>Hỗ trợ</h5>
                                     </div>
@@ -28,10 +29,10 @@
                 </div>
                 <a class='fab fa-facebook-square' style='margin-top: -17px;font-size:48px;color:red'></a><br>
                 <div class="clear"></div>
-                <div >
-                <a href="#">Chính sách bảo mật</a>
-                <a href="#">Hướng dẫn đặt tour</a>
-                <a>Số điện thoại xxxxxxxxx</a>
+                <div style="color: #fff">
+                <a href="#">Chính sách bảo mật</a><br>
+                <a href="#">Hướng dẫn đặt tour</a><br>
+                <a>Số điện thoại xxxxxxxxx</a><br>
                 <a>Địa chỉ:</a>
                 </div>
 
@@ -45,7 +46,8 @@
                 <div class="clear"></div>
             </div>
         </div>
-    </div>
+
+</div>
 
 </div>
 </body>

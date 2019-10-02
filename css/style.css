@@ -352,8 +352,9 @@ color:rgb(255, 0, 0);font-weight: bold;font-size:20px;
     color: red;
 }
 .sp_{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     font-weight: bold;
+   
 }
 .support2_ ul li{
     float: left;
@@ -437,6 +438,7 @@ color:rgb(255, 0, 0);font-weight: bold;font-size:20px;
     margin-top: 30px;
    
 }
+
 .ttt{
     text-align: center;
    
@@ -1503,4 +1505,9 @@ header h1 a {
     margin-left: -140px;
 }
 
+}
+.bg_panner_footer{
+    margin-top:30px;
+    padding-bottom:30px; 
+   
 }
