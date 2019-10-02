@@ -2,10 +2,10 @@
 <div class="container " style="	margin-top: 20px;background: #FFF;padding-bottom: 100px; ">
     <div class="body_1">
         <div class="clear"></div>
-        <div class="top_newtour">
-            <h3 class="ttt ">  tour nóng </h3>
-
+        <div class="row">
+            <img src="images/panner/hottours_1.jpg" style="width:100%" >
         </div>
+
         <div class="clear"></div>
 
         <div class="title_hottour row">
@@ -16,7 +16,7 @@
                     <img src="images/iloveimg-resized/hoian.jpg">
                     <div class="image_tours_text">
                         <div class="image_tours_title ">
-                            <p>Du lịch Hội An</p>
+                            <p id="nametour">Du lịch Hội An</p>
                             <p>------------------------------------------</p>
                         </div>
                     </div>
@@ -29,10 +29,10 @@
                         <h6 class="image_tours_text_price ">2.500.000 tr</h6>
                     </div>
                     <div class="clear"></div>
-                    <a href="#">Đặt ngay</a>
+                    <a href="booking_tour.php">Đặt ngay</a>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4">  
                 <div class="image_tours">
                     <img src="images/iloveimg-resized/phongnha.jpg">
                     <div class="image_tours_text">
@@ -50,7 +50,7 @@
                         <h6 class="image_tours_text_price ">2.500.000 tr</h6>
                     </div>
                     <div class="clear"></div>
-                    <a href="#">Đặt ngay</a>
+                    <a href="booking_tour.php">Đặt ngay</a>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -71,46 +71,17 @@
                         <h6 class="image_tours_text_price ">2.500.000 tr</h6>
                     </div>
                     <div class="clear"></div>
-                    <a href="#">Đặt ngay</a>
+                    <a href="booking_tour.php">Đặt ngay</a>
                 </div>
             </div>
         </div>
-        <div class="">
-            <div class="support_ ">
-                <div class="support2_">
-                    <ul>
-                        <li>
-                            <span class="glyphicon glyphicon-user"
-                                style="color: rgb(255, 187, 0);font-size:700%"></span>
-                        </li>
-                        <li>
-                            <div class="sp_">
-                                <h5>Hỗ trợ</h5>
-                            </div>
-                            <div class="sp_">
-                                Từ 8h-22h
-                            </div>
-                            <div class="sp_">
-                                Hotline & Trực tuyến
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+
         <div class="clear"></div>
+        <div class="row" style="margin-top:100px">
+            <img src="images/panner/tours_new4.jpg" style="width:100%" >
+        </div>
         <div class="row">
             <div class="col-sm-12 ">
-                <div class="top_newtour">
-                    <ul>
-                        <li>
-                            <h3 class="ttt"> Tour mới </h3>
-                        </li>
-
-                    </ul>
-
-
-                </div>
 
                 <div class="title_newtour row">
 
@@ -133,7 +104,7 @@
                                 <h6 class="image_tours_text_price ">2.500.000 tr</h6>
                             </div>
                             <div class="clear"></div>
-                            <a href="#">Đặt ngay</a>
+                            <a href="booking_tour.php">Đặt ngay</a>
                         </div>
                     </div>
                     <div class="col-sm-3">
@@ -154,7 +125,7 @@
                                 <h6 class="image_tours_text_price ">2.500.000 tr</h6>
                             </div>
                             <div class="clear"></div>
-                            <a href="#">Đặt ngay</a>
+                            <a href="booking_tour.php">Đặt ngay</a>
                         </div>
                     </div>
                     <div class="col-sm-3">
@@ -175,7 +146,7 @@
                                 <h6 class="image_tours_text_price ">2.500.000 tr</h6>
                             </div>
                             <div class="clear"></div>
-                            <a href="#">Đặt ngay</a>
+                            <a href="booking_tour.php">Đặt ngay</a>
                         </div>
                     </div>
                     <div class="col-sm-3">
@@ -196,7 +167,7 @@
                                 <h6 class="image_tours_text_price ">2.500.000 tr</h6>
                             </div>
                             <div class="clear"></div>
-                            <a href="#">Đặt ngay</a>
+                            <a href="booking_tour.php">Đặt ngay</a>
                         </div>
                     </div>
                     <div class="col-sm-3">
@@ -217,7 +188,7 @@
                                 <h6 class="image_tours_text_price ">2.500.000 tr</h6>
                             </div>
                             <div class="clear"></div>
-                            <a href="#">Đặt ngay</a>
+                            <a href="booking_tour.php">Đặt ngay</a>
                         </div>
                     </div>
                     <div class="col-sm-3">
@@ -238,7 +209,7 @@
                                 <h6 class="image_tours_text_price ">2.500.000 tr</h6>
                             </div>
                             <div class="clear"></div>
-                            <a href="#">Đặt ngay</a>
+                            <a href="booking_tour.php">Đặt ngay</a>
                         </div>
                     </div>
                     <div class="col-sm-3">
@@ -259,7 +230,7 @@
                                 <h6 class="image_tours_text_price ">2.500.000 tr</h6>
                             </div>
                             <div class="clear"></div>
-                            <a href="#">Đặt ngay</a>
+                            <a href="booking_tour.php">Đặt ngay</a>
                         </div>
                     </div>
 
@@ -298,7 +269,7 @@
                         <h6 class=" Sales">2.500.000 tr</h6>
                     </div>
                     <div class="clear"></div>
-                    <a href="#">Đặt ngay</a>
+                    <a href="booking_tour.php">Đặt ngay</a>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -319,7 +290,7 @@
                         <h6 class=" Sales ">2.500.000 tr</h6>
                     </div>
 
-                    <a href="#" class="">Đặt ngay</a>
+                    <a href="booking_tour.php">Đặt ngay</a>
 
 
                 </div>
@@ -342,16 +313,16 @@
                         <h6 class=" Sales">2.500.000 tr</h6>
                     </div>
                     <div class="clear"></div>
-                    <a href="#">Đặt ngay</a>
+                    <a href="booking_tour.php">Đặt ngay</a>
                 </div>
             </div>
         </div>
         <div class="clear"></div>
+        <div class="row" style="margin-top:80px">
+            <img src="images/panner/chiasekn.jpg" style="width:100%" >
+        </div>
         <div class="row bog_">
-            <h3
-                style="color: red;padding-top:50px;font-family: Georgia, 'Times New Roman', Times, serif;font-weight: bold;text-align: center">
-                Blog
-            </h3>
+
             <div class="tours_main_blog row">
                 <div class="tours_ col-sm-4">
                     <div class="g_content_tour">
@@ -431,12 +402,7 @@
 
     <img src="images/iloveimg-resized/hoian2.jpg" alt="" style="padding-top: 20px; margin: 0px auto;padding-left: 0px;">
     </div>
-    <div class="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59587.94583115044!2d105.80194399300176!3d21.022816135656498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSMOgIE7hu5lpLCBIb8OgbiBLaeG6v20sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1569848887853!5m2!1svi!2s"
-                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-            <div class="clear"></div>
-    </div>
+
 </div>
 
         <!-- panner--------------------- -->
