@@ -323,6 +323,10 @@
         </div>
         <div class="row bog_">
 
+            <h3
+                style="color: red;padding-top:50px;font-family: Georgia, 'Times New Roman', Times, serif;font-weight: bold;text-align: center">
+                Góc Kinh Nghiệm
+            </h3>
             <div class="tours_main_blog row">
                 <div class="tours_ col-sm-4">
                     <div class="g_content_tour">
