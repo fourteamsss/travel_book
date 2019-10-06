@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon.ico">
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="booking/css/booking.css">
@@ -32,6 +33,7 @@
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="public/slider_booking/slider.css" rel="stylesheet">
+    <link href="scss/style.css" rel="stylesheet">
     <script>
         $(document).ready(function () {
             jQuery('#camera_wrap').camera({
@@ -90,27 +92,11 @@
                                 <li ><a href="#">Tour Du Lịch</a>
                                 <!-- đoạn này test  -->
                                 <ul class="danhmuc_menu">
-                                    <li > <a href="/trong-nuoc"><span>Trong  nước</span></a>	
-                                    	<ul >						
-						                    <li > <a href="/ha-long"><span>Hạ Long</span></a> </li>						
-						                    <li > <a href="/ninh-binh"><span>Ninh Bình</span></a> </li>						
-						                    <li > <a href="/nghe-an"><span>Nghệ An</span></a> </li>						
-                                            <li > <a href="/da-nang"><span>Đà Nẵng</span></a> </li>                                            
-                                            <li > <a href="/tam-dao"><span>Tam Đảo</span></a> </li>                                            
-                                            <li > <a href="/quang-ninh"><span>Quảng Ninh</span></a> </li>                                            
-                                            <li > <a href="/thanh-hoa"><span>Thanh Hóa</span></a> </li>						
-					                    </ul>
+                                    <li > <a href="tour_trongnuoc.php"><span>Trong  nước</span></a>	
+                                    	
 				                    </li>
-                                    <li > <a href="/ngoai-nuoc"><span>Ngoài  nước</span></a>	
-                                    	<ul >						
-                                            <li> <a href="/tay-ban-nha"><span>Tây Ban Nha</span></a> </li>						
-                                            <li> <a href="/y"><span>Ý</span></a> </li>                                            
-                                            <li> <a href="/phap"><span>Pháp</span></a> </li>                                            
-                                            <li> <a href="/anh"><span>Anh</span></a> </li>                                            
-                                            <li> <a href="/thai-lan"><span>Thái Lan</span></a> </li>                                            
-                                            <li> <a href="/han-quoc"><span>Hàn Quốc</span></a> </li>                                            
-                                            <li> <a href="/trung-quoc"><span>Trung Quốc</span></a> </li>					
-					                    </ul>
+                                    <li > <a href="tour_nuoc_ngoai.php"><span>Ngoài  nước</span></a>	
+                                    
 				                    </li>
 						        </ul>
                                 
@@ -121,11 +107,8 @@
                                     </ul> -->
                                 </li>
                                 <li><a href="tours.php">TOURS</a></li>
-                                <li><a href="">Giới Thiệu</a>
-                                    <ul class="danhmuc_menu">
-                                        <li><a href="DomesticTour.php">Cẩm Nang Du Lịch</a></li>
-                                        <li><a href="tour_nuoc_ngoai.php">Kinh Nghiệm Du Lịch</a></li>
-                                    </ul>
+                                <li><a href="camnang.php">Cẩm nang</a>
+                                   
                                 </li>
                                 <li><a href="lienhe.php">Liên hệ</a></li>
                             </ul>
@@ -180,7 +163,8 @@
         <!--==============================Content=================================-->
         <div class="">
             <div class="container_12">
-                <div class="grid_4">
+                <div class="grid_4_">
+                    <div class ="media_">
                     <div class="banner zoom">
                         <div class="label">
                             <div class="title name_tour_tt">
@@ -191,8 +175,11 @@
                         </div>
                         <img src="images/iloveimg-resized/dalt.jpg" alt="">
                     </div>
+                    </div>
+                   
                 </div>
-                <div class="grid_4">
+                <div class="grid_4_ ">
+                    <div class ="media_">
                     <div class="banner zoom">
                         <img src="images/iloveimg-resized/hoian.jpg" alt="">
                         <div class="label">
@@ -203,8 +190,11 @@
                             <a href="booking_tour.php">Đặt ngay</a>
                         </div>
                     </div>
+                    </div>
+                    
                 </div>
-                <div class="grid_4 ">
+                <div class="grid_4_ ">
+                    <div class ="media_">
                     <div class="banner zoom">
                         <img src="images/iloveimg-resized/quynhon.jpg" alt="">
                         <div class="label">
@@ -215,6 +205,8 @@
                             <a href="booking_tour.php">Đặt ngay</a>
                         </div>
                     </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -315,126 +307,8 @@
                             <li>
                                 <a href="#">Đà Nẵng</a>
                             </li>
-                            <li>
-                                <a href="#">Khánh Hòa</a>
-                            </li>
-                            <li>
-                                <a href="#">Quảng Ninh</a>
-                            </li>
-                            <li>
-                                <a href="#">Hà Nội</a>
-                            </li>
-                            <li>
-                                <a href="#">Hồ Chí Minh</a>
-                            </li>
-                            <li>
-                                <a href="#">Đà Nẵng</a>
-                            </li>
-                            <li>
-                                <a href="#">Khánh Hòa</a>
-                            </li>
-                            <li>
-                                <a href="#">Quảng Ninh</a>
-                            </li>
-                            <li>
-                                <a href="#">Hà Nội</a>
-                            </li>
-                            <li>
-                                <a href="#">Hồ Chí Minh</a>
-                            </li>
-                            <li>
-                                <a href="#">Đà Nẵng</a>
-                            </li>
-                            <li>
-                                <a href="#">Khánh Hòa</a>
-                            </li>
-                            <li>
-                                <a href="#">Quảng Ninh</a>
-                            </li>
-                            <li>
-                                <a href="#">Hà Nội</a>
-                            </li>
-                            <li>
-                                <a href="#">Hồ Chí Minh</a>
-                            </li>
-                            <li>
-                                <a href="#">Đà Nẵng</a>
-                            </li>
-                            <li>
-                                <a href="#">Khánh Hòa</a>
-                            </li>
-                            <li>
-                                <a href="#">Quảng Ninh</a>
-                            </li>
-                            <li >
-                                <a href="#">Hà Nội</a>
-                            </li>
-                            <li>
-                                <a href="#">Hồ Chí Minh</a>
-                            </li>
-                            <li>
-                                <a href="#">Đà Nẵng</a>
-                            </li>
-                            <li>
-                                <a href="#">Khánh Hòa</a>
-                            </li>
-                            <li>
-                                <a href="#">Quảng Ninh</a>
-                            </li>
-                            <li>
-                                <a href="#">Hà Nội</a>
-                            </li>
-                            <li>
-                                <a href="#">Hồ Chí Minh</a>
-                            </li>
-                            <li>
-                                <a href="#">Đà Nẵng</a>
-                            </li>
-                            <li>
-                                <a href="#">Khánh Hòa</a>
-                            </li>
-                            <li>
-                                <a href="#">Quảng Ninh</a>
-                            </li>
-                            <li>
-                                <a href="#">Hà Nội</a>
-                            </li>
-                            <li>
-                                <a href="#">Hồ Chí Minh</a>
-                            </li>
-                            <li>
-                                <a href="#">Đà Nẵng</a>
-                            </li>
-                            <li>
-                                <a href="#">Khánh Hòa</a>
-                            </li>
-                            <li>
-                                <a href="#">Quảng Ninh</a>
-                            </li>
-                            <li>
-                                <a href="#">Thừa Thiên Huế</a>
-                            </li>
-                            <li>
-                                <a href="#">Hồ Chí Minh</a>
-                            </li>
-                            <li>
-                                <a href="#">Đà Nẵng</a>
-                            </li>
-                            <li>
-                                <a href="#">Khánh Hòa</a>
-                            </li>
-                            <li>
-                                <a href="#">Quảng Ninh</a>
-                            </li>
-                            <li>
-                                <a href="#">Đà Nẵng</a>
-                            </li>
-                            <li>
-                                <a href="#">Khánh Hòa</a>
-                            </li>
-                            <li>
-                                <a href="#">Quảng Ninh</a>
-                            </li>
+
+
                         </ul>
                     </li>
                 </ul>
@@ -442,7 +316,7 @@
             </div>
             <div class="search-box col-sm-4">
                 <form class="search-form">
-                    <input class="form-control" placeholder="Tìm kiếm tour du lịch" type="text">
+                    <input class="form-control" placeholder="Tìm kiếm" type="text">
                     <button class="btn btn-link search-btn"> <i class="glyphicon glyphicon-search"></i>
                     </button>
                 </form>
