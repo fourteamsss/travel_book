@@ -5,9 +5,10 @@
 
         <div class="name_booking_tour " style="margin-top:20px;margin-bottom:10px;">Du lịch Hội An</div>
         <div class="row">
-            <div class="col-sm-6">
+            <?php require __DIR__."/public/slider_booking/slider.php"?>
+            <!-- <div class="col-sm-6">
                 <img src="images/iloveimg-resized/hoian.jpg">
-            </div>
+            </div> -->
             <div class="col-sm-5" style="background: #e2e2e2; padding:20px;">
                 <div class="wrap_book_content">
                     <h3 class="title_book_header">
@@ -94,7 +95,9 @@
                         am Trung Bộ trong thời gian tới. Hãy đồng hành cùng Vietravel khám phá hành
                         trình thú vị này bạn nhé.
                     </p>
+                   
                 </div>
+               
             </div>
         </div>
 
