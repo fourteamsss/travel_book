@@ -39,7 +39,6 @@
                                 <span class="span_book_detail">8 chỗ</span></p>
                         </div>
                     </div>
-
                 </div>
                 <div class="clear"></div>
                 <div class="wrap_book_content">
