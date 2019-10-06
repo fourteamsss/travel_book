@@ -1548,9 +1548,7 @@ header h1 a {
     font-size:480px;
     margin-top: -17px;color:red;
 }
-.change_footer_2{
-    margin-top:50px;
-}
+
 .ui-datepicker {
     width: 280px;
 }
@@ -1577,4 +1575,7 @@ header h1 a {
    height: 100%;
    background: #000;
    padding-bottom: 30px;
+}
+.change_footer_2{
+    margin-top:27px;
 }
