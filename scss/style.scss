@@ -59,6 +59,7 @@
 		}
 	}
 }
+
 .image_tours{
 	@media (min-width: 768px) and (max-width: 768px) {
 		width: 100%;
@@ -275,6 +276,16 @@
 	@media (min-width: 320px) and (max-width:  1024px){
 		margin-top: 40px;
 	}
+}
+.lienhe_{
+	@media (min-width: 320px) and (max-width:  480px){
+		font-size: 80%;
+		width: 33%;
+		h4{
+			font-size: 11px;
+		}
+	}
+
 }
 // 	@media (max-width: $mobile-breakpoint) {
 //         width: 50%; 
