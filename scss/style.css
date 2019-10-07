@@ -284,4 +284,14 @@
   }
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .lienhe_ {
+    font-size: 80%;
+    width: 33%;
+  }
+  .lienhe_ h4 {
+    font-size: 11px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

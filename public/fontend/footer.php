@@ -45,7 +45,8 @@
             </div>
         </div>
         <div class="left_footer_left change_footer_2">
-                <a class='fab fa-facebook-square facebook_icon' ></a><br>
+            <div class="change_footer_2">
+            <a class='fab fa-facebook-square facebook_icon' ></a><br>
                 <div class="clear"></div>
                 <div style="color: #fff">
                 <a href="#">Chính sách bảo mật</a><br>
@@ -53,6 +54,8 @@
                 <a>Số điện thoại xxxxxxxxx</a><br>
                 <a>Địa chỉ:</a>
                 </div>
+            </div>
+               
         </div>
         <div class="clear"></div>
         <div>
